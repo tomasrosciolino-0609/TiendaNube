@@ -1,0 +1,75 @@
+header {
+    background-color: rgb(0, 80, 195);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 15px 40px;
+
+}
+
+#logotiendanube {
+    fill: white;
+    height: 40px;
+    filter: brightness(0) invert(1);
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-azul {
+
+    background-color: rgb(0, 80, 195);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-blanca {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 20px;
+}
+
+.boton-redondeado {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+
+.boton-redondeado-blanco {
+    background-color: white;
+    color: rgb(0, 80, 195);
+    border: 1px solid rgb(0, 80, 195);
+}
+
+.boton-redondeado-blanco:hover {
+    background-color: rgb(0, 80, 195);
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+}
+
+#imagen-hero{
+    margin-left: 90px;
+}
+
+h1{
+    
+}
