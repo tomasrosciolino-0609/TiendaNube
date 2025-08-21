@@ -232,3 +232,58 @@ h2 {
 #contendor-boton-seccion3{
     display: flex;
 }
+#section-azul-mediana{
+    min-height: 73vh;
+    background-color: rgb(0, 80, 195);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 125px;
+    justify-content: center
+}
+
+#section-nuestras-historias h2{
+    color: white;
+}
+span{
+    font-size: 24px;
+}
+#section-comentarios{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 200px;
+}
+
+.tarjeta-unica-section4{
+  background-color: white;       
+  border-radius: 12px;           
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1); 
+  
+  flex-basis: 350px;             
+  border: 1px solid #e6e6e6;     
+  
+  padding: 20px;                 
+  padding-top: 25px;
+  padding-right: 100px;
+               
+  margin: 0 20px;                
+  margin-top: 30px;  
+
+}
+.tarjeta-unica-section4 h3{
+    font-size: 20px;
+}
+.titulo-grande{
+    width: 517px;
+    height: 132px;
+    font-size:42px;
+}
+.botones-flechita{
+    display: flex;
+    flex-direction: row;
+}
+#padding-section-6{
+    margin-left:250px;
+}
